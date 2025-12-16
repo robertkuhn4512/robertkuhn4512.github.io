@@ -1,0 +1,21 @@
+title: "Network Tools / Other Stuff Blog"
+description: "My personal blog on programming, life, lessons learned and the like."
+url: "https://blogs-by-rob.com"
+baseurl: ""  # for user/organization pages; set to "/repo-name" for project pages
+
+author:
+  name: "Robert Kuhn"
+  email: "robertkuhn4512@gmail.com"
+
+# GitHub Pages will auto-enable safe plugins; we keep it simple.
+markdown: kramdown
+highlighter: rouged
+
+# Permalinks for posts
+permalink: /blog/:year/:month/:day/:title/
+
+# Exclude stuff that shouldn't be processed
+exclude:
+  - README.md
+  - node_modules
+  - vendor

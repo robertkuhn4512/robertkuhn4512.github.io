@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    {% if page.title %}{{ page.title }} | {{ site.title }}
+    {% else %}{{ site.title }}{% endif %}
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-brand">
+        <span class="site-title">{{ site.title }}</span>
+        <span class="site-subtitle">{{ site.description }}</span>
+      </div>
+      <nav class="site-nav">
+        <a href="{{ "/" | relative_url }}">Home</a>
+        <a href="{{ "/about" | relative_url }}">About</a>
+        <a href="{{ "/blog" | relative_url }}">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <span>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</span>
+      <span class="footer-separator">•</span>
+      <span>Built for GitHub Pages · Jekyll</span>
+    </div>
+  </footer>
+</body>
+</html>
