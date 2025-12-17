@@ -6,8 +6,6 @@ permalink: /about/
 
 # About
 
-# About
-
 I’m a senior network and automation engineer turned network-focused software developer, 
 with 10+ years of experience designing, operating, and automating large-scale IP networks. 
 My background is equal parts routing/switching and building the tooling that keeps those environments observable, compliant, and maintainable.
@@ -56,5 +54,5 @@ If you’re starting out and something here helps you move one step further, the
 This blog is a new (as of 12/16/2025) collection of tools that I’m building on the latest versions of the software I work with (Python, PHP, SQL and the likes).
 Each section of the blog links directly to a specific part of the repo and the corresponding lesson in the README, so you can move between explanation and code with as little friction as possible.
 
-
+[Contact me](mailto:robertkuhn4512+github@gmail.com?subject=Network%20Tools%20Blog&body=Hi%20there,)
 
