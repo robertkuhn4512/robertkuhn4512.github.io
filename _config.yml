@@ -1,6 +1,7 @@
-title: "Network Tools / Other Stuff Blog"
+title: "My Network Tools / Other Stuff Blog"
+repository: Robert_kuhn/network_tools_blog
 description: "My personal blog on programming, life, lessons learned and the like."
-url: "https://blogs-by-rob.com"
+url: "https://google.com"
 baseurl: ""  # for user/organization pages; set to "/repo-name" for project pages
 
 author:
@@ -9,7 +10,7 @@ author:
 
 # GitHub Pages will auto-enable safe plugins; we keep it simple.
 markdown: kramdown
-highlighter: rouged
+highlighter: rouge
 
 # Permalinks for posts
 permalink: /blog/:year/:month/:day/:title/
