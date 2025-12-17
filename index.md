@@ -3,13 +3,17 @@ layout: default
 title: "Home"
 ---
 
-# Network Tools Lab
+# My Open Source Network Tools and Utilities
 
-Welcome. This is a working log of a network software developer building and maintaining tooling around:
+Welcome. This blog is my attempt to give back to the networking community.
 
-- Network automation (Cisco, infrastructure, observability)
-- Python / FastAPI backends
-- DevOps workflows (GitLab, Docker, Vault, Keycloak, etc.)
+The goal is to share what I’ve learned over the years with people who are just getting started, as well as those already in the field who want to level up, learn something new, or collaborate. I’ll be walking through tools and patterns I use in my day-to-day work, with posts tied directly to code and lessons in the repo so you can follow along end-to-end.
+
+Topics I plan to cover include (but aren’t limited to):
+
+- **Network automation** – multi-vendor environments (Cisco, Juniper, Alcatel, and others), infrastructure, and observability  
+- **Python / FastAPI backends** – APIs and services that power internal network tools  
+- **DevOps workflows** – Git-first practices, GitLab CI/CD, containerized deployments with Docker, and supporting services like Vault, Keycloak, and relational databases
 
 ## Latest posts
 
