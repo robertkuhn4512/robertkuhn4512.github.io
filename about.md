@@ -19,7 +19,7 @@ Professionally, my current focus areas include (but are not limited to):
 
 - **Network automation and tooling** – device discovery, configuration compliance, backups, inventory, and impact analysis  
 - **Python / FastAPI backends** – building APIs and services behind internal network tools platforms  
-- **Infrastructure components** – Vault, Keycloak, MariaDB/PostgreSQL, and related security/identity layers  
+- **Infrastructure components** – Vault, Keycloak, MariaDB/postgres, and related security/identity layers  
 - **Containerized deployments** – Docker-based environments for development, testing, and production automation services  
 
 ---
