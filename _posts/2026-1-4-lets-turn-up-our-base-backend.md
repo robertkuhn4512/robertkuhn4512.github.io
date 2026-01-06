@@ -141,6 +141,9 @@ pgAdmin is the operator-friendly frontend to Postgres for the days when you donâ
 |   |   |-- guides -> Quick notes written on how to build your own json files to autoseed into vault
 |   |   |   |-- seed_kv_spec.example.json
 |   |   |   `-- seed_kv_spec.GUIDE.md
+|   |   |-- helper_scripts
+|   |   |   |-- vault_unseal_kv_seed_bootstrap_rootless.sh -> Helper script to auto populate vaules to vault - Not really used in the latest but I left them here
+|   |   |   `-- vault_unseal_multi_kv_seed_bootstrap_rootless.sh
 |   |   |-- keycloak_approle_setup.sh
 |   |   |-- postgress_approle_setup.sh
 |   |   |-- seed_postgres_with_vault_credentials.sh
