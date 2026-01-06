@@ -7,6 +7,7 @@ baseurl: ""  # for user/organization pages; set to "/repo-name" for project page
 author:
   name: "Robert Kuhn"
   email: "robertkuhn4512@gmail.com"
+  github_link: "https://github.com/robertkuhn4512/NETWORK_TOOLS"
 
 # GitHub Pages will auto-enable safe plugins; we keep it simple.
 markdown: kramdown
